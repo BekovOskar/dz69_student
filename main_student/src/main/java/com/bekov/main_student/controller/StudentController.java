@@ -21,7 +21,7 @@ public class StudentController {
         }
     }
 
-    @GetMapping("/getStudent")
+        @GetMapping("/getStudent")
     public Map<Integer, Student> getStudentMap(){
 
         return studentMap;
